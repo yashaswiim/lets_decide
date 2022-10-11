@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Let's Decide!</title>
+      <!-- Using google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap"
+        rel="stylesheet"
+      />
+      <link href="style.css" rel="stylesheet" />
+      <script src="script.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+      <!-- 
+	Four full browser size sections:
+	1. Panel 1
+	2. Panel 2
+	3. Panel 3
+	4. Panel 4
+	 -->
+      <div id="panel1">
+        <audio class="audio" id="audio1">
+          <source src="./audio/frame 1.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+      <div id="panel2">
+        <div class="block-section">
+          <img src="img/p2.jpg" alt="" />
+          <audio class="audio" id="audio2">
+            <source src="./audio/frame 2 to 4.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <div id="panel3"></div>
+      <div id="panel4" class="block-section">
+        <button
+          class="btn button1"
+          onclick="window.location.href='./path1.html'"
+        >
+          Left
+        </button>
+        <button
+          class="btn button2"
+          onclick="window.location.href='./path2.html'"
+        >
+          Right
+        </button>
+      </div>
+    </body>
+  </html>
+</html>

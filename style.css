@@ -1,0 +1,172 @@
+html {
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+
+/* ======================= Home Page ========================*/
+
+.home{	
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Bubblegum Sans', cursive;
+	flex-wrap: wrap;
+}
+
+.home h1{
+	font-size: 100px;
+	/* the heading should on the top of the stack porder */
+	z-index: 9;
+}
+.home h2{
+	font-size: 30px;
+	z-index: 8;
+	max-width: 800px;
+	text-align: center;
+}
+
+#title-p1{
+	/* display changed to inline-block as span is an inline element on which cannot be transformed */
+	display: inline-block;
+	transform: rotate(-25deg) translateY(80px);
+	color: brown;
+}
+#title-p2{
+	/* display changed to inline-block as span is an inline element on which cannot be transformed */
+	display: inline-block;
+	transform: scale(1.2) rotate(25deg) translateY(20px);
+	color: brown;
+}
+
+/* first floating object */
+#float{
+	width: 100px;
+	height: 100px;
+	right: 0;
+	top: 60%;
+	background: blue;
+	position: absolute;
+  }
+  
+  /* second floating object */
+  #float2{
+	  width: 100px;
+	  height: 100px;
+	  background: red;
+	  left: 0;
+	  top: 20%;
+	  border-radius: 20px;
+	  position: absolute;
+	}
+
+/* ======================= Buttons ========================*/
+
+.btn{ 
+	padding: 20px 50px;
+	background-color: bisque;
+	color: #008CBA;
+	font-size: 2em;
+	z-index: 10;
+	border-radius: 40px;
+	font-family: 'Bubblegum Sans', cursive;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: #af4c4c;
+	margin: 4px 270px;
+	color: white;
+}
+
+.button2 {
+	background-color: #008CBA;
+	margin: 4px 270px;
+	color: white;
+}
+
+/* ======================= Pseudo-elements ========================*/
+
+/* pseudo-element added to decrese the opacity of background image without affecting other child elements */
+.home::before{
+	content: '';
+	background-image: url(./img/forestt.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vw;
+	opacity: 0.6;
+}
+
+.break{
+	/* a pseudo-element to add a line break in the flex container */
+	flex-basis: 100%;
+	height: 0;
+}
+
+/* ======================= Panels ========================*/
+
+/* 
+Parallax: panel1 and panel3 sections;
+*/
+#panel1,
+#panel3 {
+	/* Set height of div to 100% */
+	height: 100%;
+	/* The bottom three background CSS settings create parallax effect */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#panel1 {
+	/* Set background image of panel1 section using url() function */
+	background-image: url('img/p1.jpg');
+}
+
+#panel2 {
+	background-image: url('img/p2.jpg');
+}
+
+#panel3 {
+	background-image: url('img/p3.jpg');
+}
+
+#panel4 {
+	background-image: url('img/p4.jpg');
+}
+
+/* 
+Block sections after panel1 and panel3 sections
+*/
+.block-section {
+	/* Center text in the middle of browser using flexbox */
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#path1 {
+	height: 100%;
+	background-image: url('img/abstract.webp');
+}
+
+#path2 {
+	height: 100%;
+	background-image: url('img/realism.jpg');
+}
+
