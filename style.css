@@ -94,6 +94,19 @@ body {
 	color: white;
 }
 
+.home-btn{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 10px 30px;
+	background-color: #008CBA;
+	border-radius: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Bubblegum Sans', cursive;
+
+}
+
 /* ======================= Pseudo-elements ========================*/
 
 /* pseudo-element added to decrese the opacity of background image without affecting other child elements */
@@ -105,8 +118,8 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100vw;
+	height: 100%;
+	width: 100vw;
 	opacity: 0.6;
 }
 
@@ -127,7 +140,7 @@ Parallax: panel1 and panel3 sections;
 	height: 100%;
 	/* The bottom three background CSS settings create parallax effect */
 	background-attachment: fixed;
-	background-size: cover;
+	background-size:cover;
 	background-position: center;
 }
 
