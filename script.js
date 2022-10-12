@@ -74,6 +74,12 @@ $(window).scroll(function () {
 	$("#panel1").css({
 	  "background-size": 100 + scrollPos + "%",
 	});
+	$("#path1").css({
+		"background-size": 100 + (scrollPos*0.5) + "%",
+	});
+	$("#path2").css({
+		"background-size": 100 + (scrollPos*0.5) + "%",
+	});
   });
 
 //control audio on panels 1,2,3 & 4

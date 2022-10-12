@@ -96,7 +96,7 @@ body {
 
 .home-btn{
 	position: absolute;
-	top: 10px;
+	top: 85px;
 	left: 10px;
 	padding: 10px 30px;
 	background-color: #008CBA;
@@ -104,7 +104,14 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Bubblegum Sans', cursive;
+}
 
+/* positioning it to fit in the speech bubble in the image */
+.restart{
+	position: absolute;
+	top: 1000px;
+	right: 100px;
+	margin: 0;
 }
 
 /* ======================= Pseudo-elements ========================*/
@@ -179,10 +186,19 @@ Block sections after panel1 and panel3 sections
 #path1 {
 	height: 100%;
 	background-image: url('img/abstract.webp');
+	background-size: cover;
+	background-position: top center;
 }
 
 #path2 {
 	height: 100%;
 	background-image: url('img/realism.jpg');
+	background-size: cover;
+	background-position: top center;
 }
 
+.final-panel {
+	height: 100%;
+	background-image: url('img/final_panel.png');
+	background-position: center;
+}
