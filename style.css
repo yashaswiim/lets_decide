@@ -109,7 +109,7 @@ body {
 /* positioning it to fit in the speech bubble in the image */
 .restart{
 	position: absolute;
-	top: 1000px;
+	top: 135%;
 	right: 100px;
 	margin: 0;
 }
@@ -185,7 +185,7 @@ Block sections after panel1 and panel3 sections
 
 #path1 {
 	height: 100%;
-	background-image: url('img/abstract.webp');
+	background-image: url('img/path1.jpg');
 	background-size: cover;
 	background-position: top center;
 }
