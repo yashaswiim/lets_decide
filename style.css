@@ -141,24 +141,27 @@ Parallax: panel1 and panel3 sections;
 	/* The bottom three background CSS settings create parallax effect */
 	background-attachment: fixed;
 	background-size:cover;
-	background-position: center;
+	background-position: top center;
 }
 
 #panel1 {
 	/* Set background image of panel1 section using url() function */
-	background-image: url('img/p1.jpg');
+	background-image: url('img/p1.png');
+	background-position: 50% 30%;
 }
 
 #panel2 {
-	background-image: url('img/p2.jpg');
+	background-image: url('img/p2.png');
 }
 
 #panel3 {
-	background-image: url('img/p3.jpg');
+	background-image: url('img/p3.png');
 }
 
 #panel4 {
-	background-image: url('img/p4.jpg');
+	background-image: url('img/p4.png');
+	background-size: cover;
+	background-position: bottom;
 }
 
 /* 
