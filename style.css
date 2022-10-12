@@ -110,7 +110,7 @@ body {
 .restart{
 	position: absolute;
 	top: 135%;
-	right: 100px;
+	right: 7%;
 	margin: 0;
 }
 
@@ -192,7 +192,7 @@ Block sections after panel1 and panel3 sections
 
 #path2 {
 	height: 100%;
-	background-image: url('img/realism.jpg');
+	background-image: url('img/path2.jpg');
 	background-size: cover;
 	background-position: top center;
 }
