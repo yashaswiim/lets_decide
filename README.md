@@ -28,13 +28,13 @@ Using a tablet, we sketched rough panels that then gave a good insight for the w
 
 ![concept](https://user-images.githubusercontent.com/98512628/195437766-dbe8d63b-89da-4dc6-b599-787af405c995.png)
 
-When it came to the code, we used the parallax scroll template from class and modified it to fit our needs. For each div, which individually takes up the dimensions of the screen, we added a template image from the internet that mirrored our storyboard. That way, we can work on the code first and make everything funtion as we desired before continuing the artistic aspects of our project.
+When it came to the code, we used the parallax scroll template from class and modified it to fit our needs. For each div, which individually takes up the dimensions of the screen, we added a template image from the internet that mirrored our storyboard. In that way, we can work on the code first and make everything funtion as we desired before continuing the artistic aspects of our project.
 
 **Photos from internet used as a template for the comic, with added comments for ideas on speech bubbles and actions:**
 
 ![template](https://user-images.githubusercontent.com/98512628/195439217-fe65c995-2018-4a27-96b0-80623eee3586.png)
 
-In addition to the incorporating the visual nature of the panels, we also added sound. The first panel has classroom sounds on autoplay, which pauses once the user reaches the next panel div. Simultaneously, the sound of a spooky forets plays. One of the final things we added was a homescreen with a button that lets the user start the comic and also gives them a small teaser for what's to come.
+In addition to incorporating the visual nature of the panels, we also added sound. The first panel has classroom sounds on autoplay, which pauses once the user reaches the next panel div. Simultaneously, the sound of a spooky forets plays, and this was done in javascript by using the y position of the scroll as the window scrolls up or down. One of the final things we added was a homescreen with a button that lets the user start the comic and also gives them a small teaser for what's to come.
 
 ### Reflection/Evaluation:
 
