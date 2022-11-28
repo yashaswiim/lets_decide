@@ -3,7 +3,7 @@
 ![homescreen](https://user-images.githubusercontent.com/98512628/195449181-83d8f740-f5e1-45c4-8fe9-a055d050a561.png)
 
 ### Group Members:
-* Yashawi
+* Yashaswi
 * Omar
 * Liam
 * Aya
